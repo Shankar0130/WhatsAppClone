@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "290115695650",
+    "firebase_url": "https://codingchat-4b471.firebaseio.com",
+    "project_id": "codingchat-4b471",
+    "storage_bucket": "codingchat-4b471.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290115695650:android:3455f8f8a5bd2606",
+        "android_client_info": {
+          "package_name": "com.shankaryadav.www.whatsappclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290115695650-1a1r48d85qckq5gk21v859egg2hvcafl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shankaryadav.www.whatsappclone",
+            "certificate_hash": "e9850c0d20673f50bf2f603b8032dbce1f05e00a"
+          }
+        },
+        {
+          "client_id": "290115695650-jg8mbp2qlfa1is644j8ckrbnsotib3o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXEqBrItYPr9FQGmN07kLP7VvJZRvMR8Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290115695650-jg8mbp2qlfa1is644j8ckrbnsotib3o6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

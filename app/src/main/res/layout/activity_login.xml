@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Number"
+        android:textSize="30sp"
+        android:maxLength="20"
+        android:layout_marginTop="20dp"
+        android:id="@+id/logInphNumber"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter code"
+        android:layout_below="@+id/logInphNumber"
+        android:layout_marginTop="10dp"
+        android:maxLength="20"
+        android:textSize="30sp"
+        android:id="@+id/logIncode"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logInButton"
+        android:layout_below="@+id/logIncode"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:text="Verify"
+        android:textSize="35sp"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
